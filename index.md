@@ -19,9 +19,9 @@ This is unformatted.
 * List item 2
 * List item 3
 
-1. Enumarated one
-2. Enumarated two
-3. Enumarated three
+1. Enumarated 1
+2. Enumarated 2
+3. Enumarated 3
 
 Horizontal rule:
 

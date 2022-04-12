@@ -34,7 +34,7 @@
 
 1. On your local computer (the client), run the following command - `ssh-keygen` - this command generates a public/private key pair. 
 2. We now need to create a `.ssh` directory on the server and copy the public key onto there. Execute the following commands:
-```
+```terminal
 $ ssh cs15lsp22avl@ieng6.ucsd.edu
 <Enter Password>
 # now on server

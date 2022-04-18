@@ -34,7 +34,7 @@
 
 1. On your local computer (the client), run the following command - `ssh-keygen` - this command generates a public/private key pair. 
 2. We now need to create a `.ssh` directory on the server and copy the public key onto there. Execute the following commands:
-```
+```terminal
 $ ssh cs15lsp22avl@ieng6.ucsd.edu
 <Enter Password>
 # now on server
@@ -51,6 +51,7 @@ $ scp /Users/evank/.ssh/id_rsa.pub cs15lsp22avl@ieng6.ucsd.edu:~/.ssh/authorized
 ![Screenshot 1](no_password.png)
 
 2. You can also run multiple commands at once, separating them with a `;`. Look at the example below:
+
 ```
 scp WhereAmI.java OtherMain.java; javac OtherMain.java;
 java WhereAmI

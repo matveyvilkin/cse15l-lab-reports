@@ -49,6 +49,7 @@ $ scp /Users/evank/.ssh/id_rsa.pub cs15lsp22avl@ieng6.ucsd.edu:~/.ssh/authorized
 
 1. You can make remote running even more seamless by using command lines within quotation marks to run commands on the server in the same ssh session. For example:
 ![Screenshot 1](no_password.png)
+
 2. You can also run multiple commands at once, separating them with a `;`. Look at the example below:
 ```
 scp WhereAmI.java OtherMain.java; javac OtherMain.java;

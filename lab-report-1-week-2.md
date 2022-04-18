@@ -68,6 +68,5 @@ To further make remote running easier we can do the following:
 2. You can also run multiple commands at once, separating them with a `;`. Look at the example below:
 
         
-        scp WhereAmI.java OtherMain.java; javac OtherMain.java;
-        java WhereAmI
+        $ scp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
         

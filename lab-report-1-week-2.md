@@ -51,10 +51,10 @@ To do so, you can follow the instruction below:
 terminal
 $ ssh cs15lsp22avl@ieng6.ucsd.edu
 <Enter Password>
-# now on server
+NOW ON SERVER:
 $ mkdir .ssh
 $ <logout>
-# back on client
+BACK ON CLIENT
 $ scp /Users/evank/.ssh/id_rsa.pub cs15lsp22avl@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
 3. Now you should be able to log in without having to input the passsword like below: ![No password login](no_password.png)

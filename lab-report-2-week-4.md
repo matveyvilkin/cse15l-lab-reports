@@ -28,7 +28,12 @@
     By updating the `if` statement added in the previous code change, I ensured that the program not only checks for the first `[` before running another itearation, but also for the 3 remaing characters: `]`,`(`,`)`.
 
 ## Code Change 3
-1. Screenhsot: ![Screenshot 3]()
-2. You can see the file that was the failure-inducing input here: [file 3]()
-3. Symptom: ![Screenshot Symptom 3]()
-4. Explanation: 
+1. Screenhsot: ![Screenshot 3](bug_fix3.png)
+2. You can see the file that was the failure-inducing input here: [test-file6.md](https://github.com/matveyvilkin/markdown-parser/blob/b234528eccd24ee295f8ceb48d8cf3f256916bb1/test-file6.md)
+3. Symptom: ![Screenshot Symptom 3](symptom3.png)
+4. Explanation: The program identified image links which are preceeded with a `!` as normal links. As can be seen in the synptom screenshot above, program identified `page.com` as a normal link while it was actually an image link. I added the following code block to check if there is a `!` before the start of the link:
+    ```java
+    if (!(markdown.indexOf("!",openBracket-2)==openBracket-1)) {
+        toReturn.add(markdown.substring(openParen+1, closeParen));
+    }
+    ```

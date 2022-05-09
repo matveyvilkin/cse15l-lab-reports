@@ -1,6 +1,6 @@
 # Week 6 Lab Report
 
-## Streamlining ssh Configuration
+## Streamlining SSH configuration
 
 Below you can see my config file:
 ![Config file](config.png)

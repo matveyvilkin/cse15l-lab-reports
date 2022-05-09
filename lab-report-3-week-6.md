@@ -35,3 +35,11 @@ You can see the commit [here](https://github.com/matveyvilkin/new_repo/commit/ff
 
 ## Copy whole directories with `scp -r`
 
+You can copy a whole directory to a remote server using `scr -r`:
+![scp -r](scp_r.png)
+
+Once I copied the directory with the code I run the tests for the code on the server:
+![tests on ieng6](tests.png)
+
+You can also run all these commands together combining them using `;` like below:
+![Combined commands](combined_commands.png)

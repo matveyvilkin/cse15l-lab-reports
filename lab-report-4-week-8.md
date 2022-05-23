@@ -21,7 +21,7 @@ You can access the repository reviewed in week 7 [here](https://github.com/hsflo
 
 4. The output of the repo worked on in week 7 produced the follwoing:
 
-    ![Other Test 1 Output](other_output1.md)
+    ![Other Test 1 Output](other_output1.png)
 
 ## Snippet 2
 
@@ -38,7 +38,7 @@ You can access the repository reviewed in week 7 [here](https://github.com/hsflo
 
 4. The output of the repo worked on in week 7 produced the follwoing:
 
-    ![Other Test 2 Output](other_output2.md)
+    ![Other Test 2 Output](other_output2.png)
 
 ## Snippet 3
 
@@ -55,13 +55,13 @@ You can access the repository reviewed in week 7 [here](https://github.com/hsflo
 
 4. The output of the repo worked on in week 7 produced the follwoing:
 
-    ![Other Test 3 Output](other_output3.md)
+    ![Other Test 3 Output](other_output3.png)
 
 ## Questions
 
 1. Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
 
-    ANSWER 1
+    
 
 2. Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
 

@@ -61,11 +61,11 @@ You can access the repository reviewed in week 7 [here](https://github.com/hsflo
 
 1. Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
 
-    
+    Yes. When two "`" are followed by each other the program should not consider the text to be a link. This can be fixed by adding another condition to the original if-statement at the start of the while loop which would check for whether there a 2 backticks.
 
 2. Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
 
-    ANSWER 2
+    Yes. If there are `\` within `[]` preceeding the link, they should be ignored. Similarly, `()` between the link `()` should be ignored. This can be done by updating `closeParen` until no more are found.
 
 3. Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
 

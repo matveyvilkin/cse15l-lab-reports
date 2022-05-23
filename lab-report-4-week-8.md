@@ -1,6 +1,6 @@
 # Week 8 Lab Report
 
-[The Common Mark demo site]() site will be used to determine the outputs of each respective snippet.
+[The Common Mark demo site](https://spec.commonmark.org/dingus/) site will be used to determine the outputs of each respective snippet.
 
 You can access my repository [here](https://github.com/matveyvilkin/markdown-parser).
 
@@ -69,4 +69,4 @@ You can access the repository reviewed in week 7 [here](https://github.com/hsflo
 
 3. Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
 
-    ANSWER 3
+    There is not a change under 10 lines which would fix the issues in the code producing the incorrect output. There are multiple issues present here, "twitter.com" should not be appearing as a link, as well as the links appearing on multiple lines.
